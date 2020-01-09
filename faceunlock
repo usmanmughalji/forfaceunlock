@@ -1,0 +1,97 @@
+01-09 20:04:31.316 V/FingerprintController(2124): startWakeAndUnlock(1)
+01-09 20:04:32.273 W/BroadcastQueue(1546): Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+01-09 20:04:32.274 W/ServiceWorker(17200): TrainingCache cache DEVICE_UNLOCKED failure
+01-09 20:06:36.465 V/FingerprintController(2124): startWakeAndUnlock(1)
+01-09 20:06:36.790 W/BroadcastQueue(1546): Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+01-09 20:06:36.973 W/ServiceWorker(17200): TrainingCache cache DEVICE_UNLOCKED failure
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): Cannot find StorageManager.inCryptKeeperBounce()
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): java.lang.NoSuchMethodException: inCryptKeeperBounce []
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at java.lang.Class.getMethod(Class.java:2068)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at java.lang.Class.getMethod(Class.java:1690)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at kph.b(PG:11)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at kph.a(PG:20)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at com.google.android.apps.inputmethod.libs.framework.core.AppBase.onCreate(PG:47)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1155)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5930)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at android.app.ActivityThread.access$1100(ActivityThread.java:199)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1655)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at android.os.Looper.loop(Looper.java:193)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at android.app.ActivityThread.main(ActivityThread.java:6698)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at java.lang.reflect.Method.invoke(Native Method)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:495)
+01-09 20:06:50.614 W/UserUnlockMonitor(18252): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:859)
+01-09 20:07:48.478 I/keystore(709): calling unlock when already unlocked, ignoring.
+01-09 20:07:48.478 I/keystore(709): calling unlock when already unlocked, ignoring.
+01-09 20:07:48.479 I/LockSettingsService(1546): Unlocking user 0 with secret only, length 32
+01-09 20:07:48.479 D/LockSettingsService(1546): unlockUser finished
+01-09 20:07:48.513 I/ActivityManager(1546): START u0 {act=android.intent.action.MAIN cmp=com.google.android.gms/.trustagent.GoogleTrustAgentPersonalUnlockingSettings} from uid 1000
+01-09 20:07:48.878 I/ActivityManager(1546): Start proc 18901:com.google.android.gms.ui/u0a15 for activity com.google.android.gms/.trustagent.GoogleTrustAgentPersonalUnlockingSettings
+01-09 20:07:49.103 I/ActivityManager(1546): Displayed com.google.android.gms/.trustagent.GoogleTrustAgentPersonalUnlockingSettings: +174ms
+01-09 20:07:50.113 I/AppCompatDelegate(18901): 	at com.google.android.gms.trustagent.GoogleTrustAgentPersonalUnlockingChimeraSettings.onCreate(:com.google.android.gms@19831028@19.8.31 (100400-284611645):1)
+01-09 20:07:50.553 I/TrustAgent(5511): [VoiceUnlockTrustletChimeraService] #isSupported true
+01-09 20:07:50.566 I/TrustAgent(5511): [VoiceUnlockTrustletChimeraService] #isSupported true
+01-09 20:07:52.824 I/ActivityManager(1546): START u0 {act=com.google.android.gms.trustlet.face.ui.FaceUnlockSettingsActivity.START pkg=com.google.android.gms cmp=com.google.android.gms/.trustagent.GoogleTrustAgentFaceUnlockSettings} from uid 10015
+01-09 20:07:52.824 I/ActivityManager(1546): START u0 {act=com.google.android.gms.trustlet.face.ui.FaceUnlockSettingsActivity.START pkg=com.google.android.gms cmp=com.google.android.gms/.trustagent.GoogleTrustAgentFaceUnlockSettings} from uid 10015
+01-09 20:07:52.878 I/AppCompatDelegate(18901): 	at com.google.android.gms.trustlet.face.ui.GoogleTrustAgentFaceUnlockChimeraSettings.onCreate(:com.google.android.gms@19831028@19.8.31 (100400-284611645):1)
+01-09 20:08:11.247 I/TrustAgent(18901): [PersonalUnlockingSettingsFragment] Face trustlet is enabled by user
+01-09 20:08:13.827 I/TrustAgent(18901): [FaceUnlockFragment] Face trustlet is enabled by user
+01-09 20:08:21.310 W/SurfaceFlinger(635): Attempting to set client state on removed layer: com.google.android.gms/com.google.android.gms.trustagent.GoogleTrustAgentFaceUnlockSettings#0
+01-09 20:08:21.310 W/SurfaceFlinger(635): Attempting to destroy on removed layer: com.google.android.gms/com.google.android.gms.trustagent.GoogleTrustAgentFaceUnlockSettings#0
+01-09 20:08:27.969 W/SurfaceFlinger(635): Attempting to destroy on removed layer: AppWindowToken{6eee2c5 token=Token{93ef53c ActivityRecord{dc87b2f u0 com.google.android.gms/.trustagent.GoogleTrustAgentFaceUnlockSettings t1305}}}#0
+01-09 20:08:30.560 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_MAYBE
+01-09 20:08:30.560 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_MAYBE
+01-09 20:08:30.864 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:08:30.864 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:08:30.951 D/FULFaceLockEventLog(18950):  - status: STATUS_SUCCESSFUL_UNLOCK
+01-09 20:08:34.137 W/ServiceWorker(17200): TrainingCache cache DEVICE_UNLOCKED failure
+01-09 20:08:34.138 W/BroadcastQueue(1546): Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+01-09 20:08:39.614 V/FingerprintController(2124): startWakeAndUnlock(1)
+01-09 20:08:39.931 W/BroadcastQueue(1546): Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+01-09 20:08:40.044 W/ServiceWorker(17200): TrainingCache cache DEVICE_UNLOCKED failure
+01-09 20:08:47.908 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:47.908 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:47.936 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:47.936 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:47.979 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:47.979 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.016 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.016 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.040 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.040 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.068 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.068 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.102 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.102 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.135 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.135 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.172 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.172 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:48.492 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_MAYBE
+01-09 20:08:48.492 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_MAYBE
+01-09 20:08:48.779 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:08:48.779 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:08:48.785 D/FULFaceLockEventLog(18950):  - status: STATUS_SUCCESSFUL_UNLOCK
+01-09 20:08:54.186 W/BroadcastQueue(1546): Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+01-09 20:08:54.190 W/ServiceWorker(17200): TrainingCache cache DEVICE_UNLOCKED failure
+01-09 20:08:58.264 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:58.264 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:08:58.773 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:08:58.773 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:08:58.790 D/FULFaceLockEventLog(18950):  - status: STATUS_SUCCESSFUL_UNLOCK
+01-09 20:09:00.465 W/BroadcastQueue(1546): Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+01-09 20:09:00.467 W/ServiceWorker(17200): TrainingCache cache DEVICE_UNLOCKED failure
+01-09 20:09:03.820 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:09:03.820 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_NO_FACE
+01-09 20:09:04.158 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:09:04.158 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:09:04.163 D/FULFaceLockEventLog(18950):  - status: STATUS_SUCCESSFUL_UNLOCK
+01-09 20:09:09.794 W/BroadcastQueue(1546): Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+01-09 20:09:09.796 W/ServiceWorker(17200): TrainingCache cache DEVICE_UNLOCKED failure
+01-09 20:09:14.993 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_MAYBE
+01-09 20:09:14.993 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_MAYBE
+01-09 20:09:15.277 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:09:15.277 D/FULProcessingThread(18950): Unlock state: UNLOCK_STATE_ALLOW
+01-09 20:09:15.280 D/FULFaceLockEventLog(18950):  - status: STATUS_SUCCESSFUL_UNLOCK
+01-09 20:09:18.809 W/ServiceWorker(17200): TrainingCache cache DEVICE_UNLOCKED failure
+01-09 20:09:18.810 W/BroadcastQueue(1546): Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
